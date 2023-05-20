@@ -1,66 +1,69 @@
-.aboutme { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #ccc; 
-    padding: 20px; 
-  }
-  .aboutme p {
-      color: rgb(0, 0, 0);
-      font-family: 'Roboto', sans-serif;
-      margin-bottom: 20px;
-      font-size: 15px;
-  }
-  .aboutme a {
-      align-self: flex-end;
-      border: 2px solid rgb(30, 26, 218);
-      border-radius: 5px;
-      font-family: 'Roboto', sans-serif;
-      padding: 5px;
-      font-size: 15px;
-  }
-  .we { 
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border: 1px solid #ccc; 
-      padding: 20px; 
-    }
-  .we a {
-      text-align: center;
-      border: 2px solid rgb(30, 26, 218);
-      border-radius: 5px;
-      width: 20%;
-      height: 150px;
-  }
-  .ec { 
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border: 1px solid #ccc; 
-      padding: 20px; 
-    }
-  .ec a {
-      text-align: center;
-      border: 2px solid rgb(26, 218, 154);
-      border-radius: 5px;
-      width: 20%;
-      height: 150px;
-      color: rgb(26, 218, 154);
-  }
-  .sl { 
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border: 1px solid #ccc; 
-      padding: 20px; 
-    }
-  .sl a {
-      text-align: center;
-      border: 2px solid rgb(218, 103, 26);
-      border-radius: 5px;
-      width: 20%;
-      height: 150px;
-      color: rgb(218, 103, 26);
-  }
+.custom-container {
+  max-width: 1200px !important;
+}
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.aboutme p {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.aboutme a {
+  align-self: flex-end;
+  border: 2px solid rgb(30, 26, 218);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  font-size: 15px;
+}
+.row div {
+  text-align: center;
+  border-radius: 15px;
+  height: 150px;
+}
+.we {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.we div div {
+  border: 2px solid rgb(30, 26, 218);
+}
+.we div :hover {
+  background-color: rgb(30, 26, 218);
+  color: white;
+}
+.ec {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.ec div div {
+  border: 1px solid rgb(26, 218, 154);
+}
+.ec div :hover {
+  background-color: rgb(26, 218, 154);
+  color: white;
+}
+.ec div div a {
+  color: rgb(21, 134, 97);
+}
+.sl {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.sl div div {
+  border: 1px solid rgb(218, 103, 26);
+}
+.sl div :hover {
+  background-color: rgb(218, 103, 26);
+  color: white;
+}
+.sl div div a {
+  color: rgb(141, 67, 18);
+}

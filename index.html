@@ -1,76 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link al css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
     <title>David Gomez Zumbado - CV</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a class="logo"><img src="assets/cvlogo.jpg"/></a>
-            <ul class="menu">
-                <li>
-                    <a href="index.html"> Index</a>
-                </li>
-                <li>
-                    <a href="pages/aboutme.html"> About me</a>
-                </li>
-                <li>
-                    <a href="pages/workexperience.html">Work experience</a>
-                </li>
-                <li>
-                    <a href="pages/educationcourses.html">Education and courses</a>
-                </li>
-                <li>
-                    <a href="pages/skillslenguages.html">Skills and lenguages</a>
-                </li>
-                <li>
-                    <a href="pages/contactreferences.html">Contact and references</a>
-                </li>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="assets/cvlogo.jpg" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Index</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/aboutme.html">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/workexperience.html"
+                  >Work experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/educationcourses.html"
+                  >Education and courses</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/skillslenguages.html"
+                  >Skills and lenguages</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contactreferences.html"
+                  >Contact and references</a
+                >
+              </li>
             </ul>
-        </nav>
-        <div class="title">
-            <h1>David Gómez Zumbado</h1>
-            <h2>SYSTEM ENGINEER</h2>
+          </div>
         </div>
+      </nav>
+      <div class="title">
+        <h1>David Gómez Zumbado</h1>
+        <h2>SYSTEM ENGINEER</h2>
+      </div>
     </header>
-    <main>
-        <div class="aboutme">
-            <p>Systems Engineer with more than 5 years of experience, with knowledge in development and implementation of WCF, Web Apis, .Net Core, Blazor. 
-                With expectations of continuing to gain experience in the branch of programming or database.</p>
-            <a href="pages/aboutme.html">Read More</a>
+    <main class="container custom-container">
+      <section class="aboutme">
+        <p>
+            I am a Systems Engineer with over 5 years of experience in the development and implementation of WCF, Web APIs, .NET Core, and Blazor. Throughout my career, I have demonstrated a strong passion for programming and databases, and I am committed to continuously expanding my knowledge and expertise in these areas.
+        </p>
+        <a href="pages/aboutme.html">Read More</a>
+      </section>
+      <section class="we">
+        <h3>Work experience</h3>
+        <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-3">
+            <a href="pages/workexperience.html">IT Systems Analyst</a>
+            <h6><b>Company:</b> Evertec Costa Rica</h6>
+            <h6><b>Location:</b> San José, Costa Rica</h6>
+            <p>Jan, 2017 - Dec, 2020</p>
           </div>
-          <div class="we">
-            <a href="pages/workexperience.html"> WE 1</a>
-            <a href="pages/workexperience.html"> WE 2</a>
-            <a href="pages/workexperience.html"> WE 3</a>
-            <a href="pages/workexperience.html"> WE 4</a>
+          <div class="col-sm-12 col-md-8 col-lg-3">
+            <a href="pages/workexperience.html">.Net Development Consultant</a>
+            <h6><b>Company:</b> Crux Consultores</h6>
+            <h6><b>Location:</b> San José, Costa Rica</h6>
+            <p>Dec, 2020 - Dec, 2021</p>
           </div>
-          <div class="ec">
-            <a href="pages/educationcourses.html"> COURSE 1</a>
-            <a href="pages/educationcourses.html"> COURSE 2</a>
-            <a href="pages/educationcourses.html"> COURSE 3</a>
-            <a href="pages/educationcourses.html"> COURSE 4</a>
+          <div class="col-sm-12 col-md-8 col-lg-3">
+            <a href="pages/workexperience.html"
+              >Professional, Software Development Engineer</a
+            >
+            <h6><b>Company:</b> Fiserv</h6>
+            <h6><b>Location:</b> Cartago, Costa Rica</h6>
+            <p>Feb, 2022 - Jun, 2022</p>
           </div>
-          <div class="sl">
-            <a href="pages/skillslenguages.html"> SKILL 1</a>
-            <a href="pages/skillslenguages.html"> SKILL 2</a>
-            <a href="pages/skillslenguages.html"> SKILL 3</a>
-            <a href="pages/skillslenguages.html"> SKILL 4</a>
+          <div class="col-sm-12 col-md-8 col-lg-3">
+            <a href="pages/workexperience.html">Sr .Net Developer</a>
+            <h6><b>Company:</b> Globant</h6>
+            <h6><b>Location:</b> Heredia, Costa Rica</h6>
+            <p>Jun, 2022 - now</p>
           </div>
+        </div>
+      </section>
+      <section class="ec">
+        <h3>Education and courses</h3>
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/educationcourses.html">Bachelor of Computer Systems Engineering</a>
+              <h6><b>University:</b> Fidelitas University</h6>
+              <h6><b>Location:</b> San José, Costa Rica</h6>
+              <p>2017 - 2019</p>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/educationcourses.html">Scrum Fundamentals Certified (SFC)</a>
+              <h6><b>Issuing Organization:</b> SCRUMstudy - Accreditation Body for Scrum and Agile</h6>
+              <h6><b>Issue Date:</b> May, 2023</h6>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/educationcourses.html">Database Administrator</a>
+              <h6><b>Issuing Organization:</b> Carlos Slum Fundation</h6>
+              <h6><b>Issue Date:</b> Jul, 2020</h6>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/educationcourses.html">C# Advanced</a>
+              <h6><b>Issuing Organization:</b> Udemy</h6>
+              <h6><b>Issue Date:</b> Jun, 2021</h6>
+            </div>
+          </div>
+      </section>
+      <section class="sl">
+        <h3>Skill and lenguages</h3>
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/skillslenguages.html">English</a>
+              <h6><b>Level:</b> B2 Upper Intermediate</h6>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/skillslenguages.html">Spanish</a>
+              <h6><b>Level:</b> Native</h6>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/skillslenguages.html">.Net</a>
+              <h6>Can teach</h6>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-3">
+              <a href="pages/skillslenguages.html">C#</a>
+              <h6>Can teach</h6>
+            </div>
+          </div>
+      </section>
     </main>
     <footer>
-        <a href="https://www.linkedin.com/in/david-gomez-zumbado/" target="_blank"><img src="assets/linkedIn.png"/></a>
-        <a href="https://github.com/gomez25" target="_blank"><img src="assets/github.png"/></a>
-        <a href="https://api.whatsapp.com/send?phone=50670835755" target="_blank"><img src="assets/whatsapp.png"/></a>
+      <a href="https://www.linkedin.com/in/david-gomez-zumbado/" target="_blank"
+        ><img src="assets/linkedIn.png"
+      /></a>
+      <a href="https://github.com/gomez25" target="_blank"
+        ><img src="assets/github.png"
+      /></a>
+      <a href="https://api.whatsapp.com/send?phone=50670835755" target="_blank"
+        ><img src="assets/whatsapp.png"
+      /></a>
     </footer>
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".navbar-toggler").click(function () {
+          $(".navbar-collapse").toggleClass("show");
+        });
+      });
+    </script>
+  </body>
 </html>

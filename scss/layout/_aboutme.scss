@@ -1,0 +1,17 @@
+.aboutme {
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+.row{
+    div{
+        border: 2px solid $aboutme-border-color;
+        border-radius: 15px;
+        padding: 10px;
+        &:hover {
+            background-color: $aboutme-border-color;
+            color: white;
+          }
+    }
+}

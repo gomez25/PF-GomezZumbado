@@ -1,53 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- link al css -->
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <title>David Gomez Zumbado - CV</title>
-    </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link al css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/workexperience.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <title>David Gomez Zumbado - CV</title>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a class="logo"><img src="../assets/cvlogo.jpg"/></a>
-            <ul class="menu">
-                <li>
-                    <a href="../index.html"> Index</a>
-                </li>
-                <li>
-                    <a href="aboutme.html"> About me</a>
-                </li>
-                <li>
-                    <a href="workexperience.html">Work experience</a>
-                </li>
-                <li>
-                    <a href="educationcourses.html">Education and courses</a>
-                </li>
-                <li>
-                    <a href="skillslenguages.html">Skills and lenguages</a>
-                </li>
-                <li>
-                    <a href="contactreferences.html">Contact and references</a>
-                </li>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="../assets/cvlogo.jpg" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Index</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="workexperience.html"
+                  >Work experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="educationcourses.html"
+                  >Education and courses</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="skillslenguages.html"
+                  >Skills and lenguages</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactreferences.html"
+                  >Contact and references</a
+                >
+              </li>
             </ul>
-        </nav>
-        <div class="title">
-            <h1>David Gómez Zumbado</h1>
-            <h2>SYSTEM ENGINEER</h2>
+          </div>
         </div>
+      </nav>
+      <div class="title">
+        <h1>David Gómez Zumbado</h1>
+        <h2>SYSTEM ENGINEER</h2>
+      </div>
     </header>
-    <main>
-
+    <main class="container">
+      <section class="we">
+        <h2>Work experience</h2>
+        <div class="row">
+          <div class="col-12">
+            <h5>IT Systems Analyst</h5>
+            <h6><b>Company:</b> Evertec Costa Rica</h6>
+            <h6><b>Location:</b> San José, Costa Rica</h6>
+            <h6>Jan, 2017 - Dec, 2020</h6>
+            <p>
+              IT Systems Analyst role within a development agile team working on
+              backend and frontend requirements and integration tasks.
+            </p>
+            <p>Main responsibilities:</p>
+            <ul>
+              <li>Create new windows forms apps and SQL Server databases.</li>
+              <li>
+                Implement new changes in existing web APIs and database scripts.
+              </li>
+              <li>
+                Implement connections into windows forms apps and IBM DB2.
+              </li>
+              <li>Conduct code reviews to maintain quality of code.</li>
+              <li>
+                Interact with business analysts to gather requirement
+                information.
+              </li>
+              <li>Work with Scrum as a main agile framework.</li>
+            </ul>
+            <p>
+              Technologies: C#, VB, Web API, .Net Framework, TFS, Git, SQL
+              Server, DB2, Azure.
+            </p>
+          </div>
+          <div class="col-12">
+            <h5>.Net Development Consultant</h5>
+            <h6><b>Company:</b> Crux Consultores</h6>
+            <h6><b>Location:</b> San José, Costa Rica</h6>
+            <h6>Dec, 2020 - Dec, 2021</h6>
+            <p>
+              Backend developer role within a development agile team working on
+              backend requirements and integration tasks.
+            </p>
+            <p>Main responsibilities:</p>
+            <ul>
+              <li>Provide technical and training support to team members.</li>
+              <li>
+                Create new APIs and SQL Server databases, that consumes external
+                services.
+              </li>
+              <li>
+                Implement new changes in existing web APIs and database scripts.
+              </li>
+              <li>Implement migrations from VB.NET to Net Core.</li>
+              <li>Conduct code reviews to maintain quality of code.</li>
+              <li>
+                Interact with business analysts to gather requirement
+                information.
+              </li>
+              <li>Work with Scrum as a main agile framework.</li>
+            </ul>
+            <p>
+              Technologies: .Net Framework MVC, JS, AJAX, HTML, CSS, TFS, Azure.
+            </p>
+          </div>
+          <div class="col-12">
+            <h5>Professional, Software Development Engineer</h5>
+            <h6><b>Company:</b> Fiserv</h6>
+            <h6><b>Location:</b> Cartago, Costa Rica</h6>
+            <h6>Feb, 2022 - Jun, 2022</h6>
+            <p>
+              Full Stack developer role within a web development agile team
+              working on requirements and integration tasks required for the
+              support of the client's online banking page.
+            </p>
+            <p>Main responsibilities:</p>
+            <ul>
+              <li>Create new features for the online banking page.</li>
+              <li>Implement new changes in existing web pages.</li>
+              <li>Implement new changes in JS scripts.</li>
+              <li>Conduct code reviews to maintain quality of code.</li>
+              <li>
+                Interact with business analysts to gather requirement
+                information.
+              </li>
+              <li>Work with Scrum as a main agile framework.</li>
+            </ul>
+            <p>
+              Technologies: .Net Framework MVC, JS, AJAX, HTML, CSS, TFS, Azure.
+            </p>
+          </div>
+          <div class="col-12">
+            <h5>Sr .Net Developer</h5>
+            <h6><b>Company:</b> Globant</h6>
+            <h6><b>Location:</b> Heredia, Costa Rica</h6>
+            <h6>Jun, 2022 - now</h6>
+            <p>
+              Backend developer role within a mobile development agile team
+              working on backend requirements and integration tasks required for
+              the support of the client's suite of mobile applications.
+            </p>
+            <p>Main responsibilities:</p>
+            <ul>
+              <li>Provide technical and training support to team members.</li>
+              <li>
+                Create new features for different mobile applications such as
+                Push Notifications, Appointment SMS Messaging, Appointment
+                Scheduler.
+              </li>
+              <li>
+                Implement new changes in existing web APIs and database scripts.
+              </li>
+              <li>Conduct code reviews to maintain quality of code.</li>
+              <li>
+                Interact with business analysts to gather requirement
+                information.
+              </li>
+              <li>Work with Scrum as a main agile framework.</li>
+            </ul>
+            <p>
+              Technologies: C#, VB, Web API, Windows Services, AWS SNS, AWS S3,
+              AWS DynamoDB, REST, MVC, SQL Server, Redis, RabbitMQ, Git,
+              ActiveMQ, JavaScript, Azure.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <a href="https://www.linkedin.com/in/david-gomez-zumbado/" target="_blank"><img src="../assets/linkedIn.png"/></a>
-        <a href="https://github.com/gomez25" target="_blank"><img src="../assets/github.png"/></a>
-        <a href="https://api.whatsapp.com/send?phone=50670835755" target="_blank"><img src="../assets/whatsapp.png"/></a>
+      <a href="https://www.linkedin.com/in/david-gomez-zumbado/" target="_blank"
+        ><img src="../assets/linkedIn.png"
+      /></a>
+      <a href="https://github.com/gomez25" target="_blank"
+        ><img src="../assets/github.png"
+      /></a>
+      <a href="https://api.whatsapp.com/send?phone=50670835755" target="_blank"
+        ><img src="../assets/whatsapp.png"
+      /></a>
     </footer>
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".navbar-toggler").click(function () {
+          $(".navbar-collapse").toggleClass("show");
+        });
+      });
+    </script>
+  </body>
 </html>
