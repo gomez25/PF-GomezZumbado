@@ -536,4 +536,10 @@ footer {
   }
 }
 
+.video {
+  display: flex;
+  width: 560px;
+  height: 315px;
+}
+
 /*# sourceMappingURL=style.css.map */
