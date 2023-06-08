@@ -1,23 +1,29 @@
-.we h2 {
-  text-align: center;
-  text-decoration: underline;
-}
-.row {
-  div {
-    border: 2px solid rgb(30, 26, 218);
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
-    &:hover {
-      background-color: rgb(30, 26, 218);
-      color: white;
-    }
-    h5{
+.we {
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .box {
+    animation: translateFromLeft 2s ease-out;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    div {
+      border: 2px solid $we-border-color;
+      border-radius: 15px;
+      padding: 10px;
+      margin-bottom: 5px;
+      &:hover {
+        background-color: $we-border-color;
+        color: white;
+      }
+      h5 {
         text-align: center;
-        text-decoration:underline; 
-    }
-    h6{
+        text-decoration: underline;
+      }
+      h6 {
         text-align: center;
+      }
     }
   }
 }

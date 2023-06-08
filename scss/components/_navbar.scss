@@ -1,0 +1,51 @@
+nav {
+    padding: 5px;
+    .navbar-brand {
+        display: flex;
+        justify-content: start;
+        padding: 10px;
+        img{
+            width: 50px;
+            height: 50px;
+            border: 2px solid $nav-border-color;
+            border-radius: 5px;
+        }
+    }
+    .navbar-nav {
+        gap: 10px;
+        animation: translateFromTop 2s ease-out;
+        .nav-item {
+          border: 2px solid $nav-border-color;
+          border-radius: 5px;
+          &:hover{
+              background-color: $nav-border-color;
+          }
+        }
+        .nav-link {
+            text-decoration: none;
+            color: $nav-border-color;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            &:active{
+                color: $nav-border-color;
+            }
+        }
+      }
+  }
+  .title{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      border: 2px solid rgb(0, 0, 0);
+      background-image: url("../assets/backgroundtitle.jpg");
+      background-size: cover;
+      color: #000000;
+      h1{
+          align-self: center;
+      }
+      h2{
+          align-self: center;
+      }
+  }
+  

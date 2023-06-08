@@ -1,0 +1,87 @@
+.le {
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+    }
+    .box {
+      animation: translateFromLeft 2s ease-out;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      div {
+        border: 2px solid $sl-border-color;
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 5px;
+        &:hover {
+          background-color: $sl-border-color;
+          color: white;
+        }
+        h5 {
+          text-align: center;
+          text-decoration: underline;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .sk {
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+    }
+    .box {
+      .box-child {
+        animation: translateFromLeft 4s ease-out;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        .col-xs-12,
+        .col-sm-12,
+        .col-md-6,
+        .col-lg-4 {
+          @include responsive-height-size-ec {
+            padding: 5px;
+            border: 2px solid $sl-border-color;
+            border-radius: 15px;
+            &:hover {
+              background-color: $sl-border-color;
+              color: white;
+              transform: scale(1.1);
+            }
+            h5 {
+              text-align: center;
+              text-decoration: underline;
+            }
+            p {
+              text-align: center;
+            }
+            a {
+              color: #000;
+              text-align: center;
+              text-decoration: none;
+              border: 2px solid $sl-border-color;
+              background-color: $sl-border-color;
+              border-radius: 5px;
+              font-family: "Roboto", sans-serif;
+              font-size: 15px;
+              &:hover {
+                border: 2px solid $sl-title-color;
+                background-color: $sl-title-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

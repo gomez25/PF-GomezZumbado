@@ -1,56 +1,86 @@
-/* Header */
-nav {
-    padding: 5px;
+.custom-container {
+  max-width: 95% !important;
+}
+.am {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 5px;
+  p {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    font-size: 15px;
   }
-  .navbar-nav {
-    gap: 10px;
-    li {
-      border: 2px solid rgb(30, 26, 218);
-      border-radius: 5px;
-      &:hover{
-          background-color: rgb(30, 26, 218);
+  a {
+    align-self: flex-end;
+    border: 2px solid rgb(30, 26, 218);
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  div {
+    text-align: center;
+    border-radius: 15px;
+    height: 170px;
+  }
+}
+.we {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 5px;
+  div {
+    div {
+      border: 2px solid $we-border-color;
+      &:hover {
+        background-color: $we-border-color;
+        color: white;
       }
     }
   }
-  a {
-      text-decoration: none;
-      color: rgb(30, 26, 218);
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-  }
-  .title{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
-      border: 2px solid rgb(0, 0, 0);
-      background-image: url("../assets/backgroundtitle.jpg");
-      background-size: cover;
-      color: #000000;
-      h1{
-          align-self: center;
+}
+.ec {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 5px;
+  div {
+    div {
+      border: 2px solid $ec-border-color;
+      a {
+        color: $ec-title-color;
       }
-      h2{
-          align-self: center;
+      &:hover {
+        background-color: $ec-border-color;
+        color: white;
       }
+    }
   }
-  .navbar-brand {
-      display: flex;
-      justify-content: start;
-      padding: 10px;
-      img{
-          width: 50px;
-          height: 50px;
-          border: 2px solid rgb(30, 26, 218);
-          border-radius: 5px;
+}
+.sl {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 5px 0px 5px 0px;
+  div {
+    div {
+      border: 2px solid $sl-border-color;
+      height: 100px;
+      a {
+        color: $sl-title-color;
       }
+      &:hover {
+        background-color: $sl-border-color;
+        color: white;
+      }
+    }
   }
-  /* Footer */
-  footer{
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      background-color: #000000;
-      padding: 5px;
-      gap: 15px;
-  }
+}

@@ -3,15 +3,20 @@
     text-align: center;
     text-decoration: underline;
   }
-}
-.row{
-    div{
-        border: 2px solid $aboutme-border-color;
-        border-radius: 15px;
-        padding: 10px;
-        &:hover {
-            background-color: $aboutme-border-color;
-            color: white;
-          }
+  .box {
+    animation: translateFromRight 2s ease-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+    div {
+      border: 2px solid $aboutme-border-color;
+      border-radius: 15px;
+      padding: 10px;
+      &:hover {
+        background-color: $aboutme-border-color;
+        color: white;
+      }
     }
+  }
 }
